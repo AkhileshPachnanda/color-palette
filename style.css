@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Playfair Display;
+
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  width: 100vh;
+  height: 50vh;
+}
+
+.heading {
+}
+
+.palettes-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 15px;
+  border: 1px solid #000000;
+  width: 100%;
+  justify-content: space-evenly;
+}
