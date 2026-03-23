@@ -1,6 +1,7 @@
 const btn = document.querySelector(".generate-btn");
 const palette = document.querySelector(".palettes-list");
 
+
 const generate = () => {
   const palette = [];
 
@@ -35,3 +36,5 @@ const random = () => {
 };
 
 btn.addEventListener("click", generate);
+
+generate();
